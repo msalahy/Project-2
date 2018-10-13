@@ -1,0 +1,37 @@
+img
+{
+  float: right;
+}
+.Navigation
+{
+  background-image: url("Pic5.JPG");
+}
+.resumebody
+{
+  background-image: url("Pic4.JPG");
+}
+{
+  color: black;
+}
+#heray
+{
+  color: green;
+}
+.herat
+{
+  color: red;
+}
+h1
+{
+  color: green;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 4px 4px 4px #aaa;
+  font-size: 4.3em;
+  text-align: center;
+}
+h3 
+{
+  color: green;
+  font-size: 2.5em;
+  text-align: center;
+}
