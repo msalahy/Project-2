@@ -1,16 +1,37 @@
-
-body {
+.resume1
+{
+  background-color: rgb(255, 255, 128);
+}
+.body1 {
   line-height: 1;
   background-image: url("nature.jpg");
   line-height: 1;
   padding: 20px;
   margin: 20px;
 }
+.body2 {
+  line-height: 1;
+  background-color: #cccccc;
+  line-height: 1;
+  background-repeat: no-repeat, repeat;
+  padding: 20px;
+  margin: 20px;
+}
+.body3 {
+  line-height: 1;
+  background-color: #cccccc;
+  line-height: 1;
+  background-repeat: no-repeat, repeat;
+  padding: 20px;
+  margin: 20px;
+  font-family: font-family: 'Roboto', sans-serif;
+}
+
 .menu
-{ 
+{
   height:50px;
   width: 100%;
-  overflow: hidden;
+  font-size: 3em;
   line-height: 30px;
   background-color: #ff533d;
   object-position: center;
@@ -38,6 +59,7 @@ body {
 {
   display: inline-block;
   color: red;
+
 }
 .title
 {
@@ -52,11 +74,11 @@ body {
 {
   font-weight: bolder;
   text-align: left;
-  margin-top:40px;
+  margin-top:20px;
   margin-bottom:40px;
   font-family:'Indie Flower', cursive;
   font-size: 40px;
-  color: green;
+  color: black;
 }
 .block1 img
 {
@@ -73,8 +95,9 @@ body {
   border: 10px dotted white;
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
-  text-align: center;
+  color: blue;
   float: right;
+
 }
 .block2 img
 {
@@ -91,12 +114,20 @@ body {
   border: 10px dotted white;
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   float: right;
+  color: blue;
 }
-.block3 img
+.block3 img 
 {
   float: right;
+  width:300px;
+  height:250px;
+  margin-left:15px;
+}
+.block3 .pic222 
+{
+  float: left;
   width:300px;
   height:250px;
   margin-left:15px;
@@ -109,8 +140,9 @@ body {
   border: 10px dotted white;
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
-  text-align: center; 
+  text-align: left;
   float: left;
+  color: blue;
 }
 .block4
 {
@@ -120,15 +152,30 @@ body {
   border: 10px dotted white;
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
-  text-align: center; 
+  text-align: left;
+  color: blue;
+  float: left;
+}
+.block4 img 
+{
+  float: right;
+  width:300px;
+  height:250px;
+  margin-left:15px;
 }
 footer
 {
   background-color: #9a4b43;
   color: #Eac67a;
-  font-family: 'Julius Sans One', sans-serif;
   font-size: .85em;
   text-align: center;
   padding: 5px;
   border-top: 1px solid #ff533d;
+}
+.res_title
+{
+  font-weight: bold;
+  text-align: left;
+  font-family: font-family: 'Roboto', sans-serif;
+  color: black;
 }
