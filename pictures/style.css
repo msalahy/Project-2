@@ -1,17 +1,20 @@
+
 body {
   line-height: 1;
-  background-color: green;
+  background-image: url("nature.jpg");
   line-height: 1;
   padding: 20px;
   margin: 20px;
 }
-.menu { 
-  background-color: #FF4500; 
+.menu
+{ 
   height:50px;
-  position: fixed; 
-  margin: 0% 25% 0% 25%;
-  top: 0; 
-  width:50%; 
+  width: 100%;
+  overflow: hidden;
+  line-height: 30px;
+  background-color: #ff533d;
+  position: fixed;
+  object-position: center;
 }
 .menu a { 
   display: block;
@@ -37,43 +40,96 @@ body {
   display: inline-block;
   color: red;
 }
-
- .mohammad
+.title
 {
   text-align: center;
   margin-top:80px;
   margin-bottom: 50px;
   font-family: 'Indie Flower', cursive;
-  font-size: 70px; 
+  font-size: 60px; 
+  font-weight: bold;
 }
-
-
-
-.who
+.s_title
 {
-color: gray;
-float: right;
+  font-weight: bolder;
+  text-align: center;
+  margin-top:40px;
+  margin-bottom:40px;
+  font-family:'Indie Flower', cursive;
+  font-size: 60px;
+  color: green;
 }
-
-img
+.block1 img
 {
   float: right;
+  width:300px;
+  height:250px;
+  margin-left:15px;
 }
-.Navigation
+.block1
 {
-  background-image: url("Pic5.JPG");
-}
-h1
-{
-color: black;
-font-family: 'Indie Flower', cursive;
-text-shadow: 4px 4px 4px #aaa;
-font-size: 4.3em;
-text-align: center;
-}
-h3 
-{
-  color: green;
-  font-size: 2.5em;
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px dotted white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
   text-align: center;
+  float: right;
+}
+.block2 img
+{
+  float: left;
+  width:300px;
+  height:250px;
+  margin-left:15px;
+}
+.block2
+{
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px dotted white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: center;
+  float: right;
+}
+.block3 img
+{
+  float: right;
+  width:300px;
+  height:250px;
+  margin-left:15px;
+}
+.block3
+{
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px dotted white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: center; 
+  float: left;
+}
+.block4
+{
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px dotted white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: center; 
+}
+footer
+{
+  background-color: #9a4b43;
+  color: #Eac67a;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: .85em;
+  text-align: center;
+  padding: 5px;
+  border-top: 1px solid #ff533d;
 }
