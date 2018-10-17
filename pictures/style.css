@@ -5,7 +5,8 @@
   padding: 20px;
   margin: 20px;
 }
-.body2 {
+.body2
+{
   line-height: 1;
   background-color: #cccccc;
   line-height: 1;
@@ -13,7 +14,8 @@
   padding: 20px;
   margin: 20px;
 }
-.body3 {
+.body3
+{
   line-height: 1;
   background-color: #cccccc;
   line-height: 1;
@@ -93,7 +95,6 @@
   font-size: 20px;
   color: blue;
   float: right;
-
 }
 .block2 img
 {
@@ -148,25 +149,15 @@
   border: 10px dotted white;
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
-  text-align: left;
   color: blue;
-  float: left;
+  float: right;
 }
-.block4 img 
+.video 
 {
   float: right;
   width:300px;
   height:250px;
   margin-left:15px;
-}
-footer
-{
-  background-color: #9a4b43;
-  color: #Eac67a;
-  font-size: .85em;
-  text-align: center;
-  padding: 5px;
-  border-top: 1px solid #ff533d;
 }
 .res_title
 {
@@ -178,4 +169,13 @@ footer
 .resume1
 {
   background-color: rgb(255, 255, 128);
+}
+.fa
+{
+  background-color: #9a4b43;
+  color: #Eac67a;
+  font-size: .85em;
+  text-align: center;
+  padding: 5px;
+  border-top: 1px solid #ff533d;
 }
