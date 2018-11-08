@@ -22,7 +22,6 @@
   background-repeat: no-repeat, repeat;
   padding: 20px;
   margin: 20px;
-  font-family: font-family: 'Roboto', sans-serif;
 }
 .menu
 {
@@ -170,7 +169,6 @@
 {
   font-weight: bold;
   text-align: left;
-  font-family: font-family: 'Roboto', sans-serif;
   color: black;
 }
 .resume1
